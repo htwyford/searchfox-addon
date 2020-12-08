@@ -1,10 +1,10 @@
 {
-  "name": "Searchfox mozilla-central",
+  "name": "Searchfox Search Engine",
   "manifest_version": 2,
   "version": "1.0",
   "applications": {
     "gecko": {
-      "id": "searchfox-mozilla-central@harrytwyford.com"
+      "id": "searchfox-search-engine@harrytwyford.com"
     }
   },
   "hidden": true,
@@ -17,6 +17,7 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "Searchfox",
+      "keyword": "@searchfox",
       "search_url": "https://searchfox.org/mozilla-central/search",
       "search_url_get_params": "q={searchTerms}"
     }
