@@ -1,0 +1,24 @@
+{
+  "name": "Searchfox mozilla-central",
+  "manifest_version": 2,
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "searchfox-mozilla-central@harrytwyford.com"
+    }
+  },
+  "hidden": true,
+  "icons": {
+    "16": "favicon.png"
+  },
+  "web_accessible_resources": [
+    "favicon.png"
+  ],
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Searchfox",
+      "search_url": "https://searchfox.org/mozilla-central/search",
+      "search_url_get_params": "q={searchTerms}"
+    }
+  }
+}
